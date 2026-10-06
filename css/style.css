@@ -1,0 +1,71 @@
+
+:root {
+    --primary-color: #6366f1;
+    --secondary-color: #4f46e5;
+    --dark-bg: #0f172a;
+    --light-text: #f8fafc;
+    --accent-color: #fbbf24;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+}
+.navbar {
+    background-color: rgba(15, 23, 42, 0.9) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #1e293b;
+}
+.navbar-brand {
+    font-weight: 800;
+    color: var(--primary-color) !important;
+    font-size: 1.5rem;
+}
+.nav-link {
+    color: #94a3b8 !important;
+    transition: 0.3s;
+}
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+.hero-section {
+    padding: 100px 0;
+    background: radial-gradient(circle at top right, #1e1b4b, var(--dark-bg));
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 12px 24px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+.card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    color: white;
+    transition: 0.3s;
+}
+.card:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
+}
+.footer {
+    background-color: #020617;
+    padding: 40px 0;
+    border-top: 1px solid #1e293b;
+}
+.form-control {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    color: white;
+}
+.form-control:focus {
+    background-color: #1e293b;
+    color: white;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(99, 102, 241, 0.25);
+}
